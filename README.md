@@ -1,5 +1,5 @@
 # Environment Setup
-'''bash
+```bash
 $ conda install theano  
 The following NEW packages will be INSTALLED:
 
@@ -15,7 +15,7 @@ $ pip install -e .
 
 $ export THEANO_FLAGS='device=cuda0,floatX=float32'
 $ python environmentCheck/useGPUForTheano.py
-'''
+```
 
 # FCN
 Fully Convolutional Networks
